@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@550&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 50px;
+    /* fundo gradiente */
+    background: linear-gradient(280deg, rgba(0,0,0,1) 4%, rgba(155,152,193,1) 100%);
+
+    /* Colocando o fundo gradiente dentro do texto com essa propriedade */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* a cor do texto deve estar como transparent */
+    color: transparent;
+    
+}
+
+.watch {
+    display: flex;
+    margin-top: 8rem;
+    font-size: 40px;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10rem;
+}
+
+.card{
+    background-color: #000000;
+    padding: 5rem 3rem 5rem 3rem;
+    border-radius: 30px;
+    color: #ffffff; 
+}
+
+span {
+    font-size: 70px;
+}
