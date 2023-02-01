@@ -7,12 +7,13 @@
 }
 
 body {
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background-color: gray;
 }
 
 .watch {
     margin-top: 12rem;
     gap: 8rem;
+
 }
 
 .card{
@@ -20,15 +21,23 @@ body {
     height: 15rem;
     width: 13rem;
     border-radius: 30px;
+    display: block;
 }
 
 span {
     font-size: 70px;
     color: #ffffff; 
+    display: block;
+
 }
 
 .watch, .card{
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+h5{
+    text-align: right;
+    margin: 12rem 2rem 0 0;
 }
